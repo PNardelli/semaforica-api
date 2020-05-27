@@ -1,0 +1,28 @@
+{
+  "name": "semaforica-api",
+  "version": "1.0.0",
+  "description": "Consulta de semaforos, localização, tempos e programações.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PNardelli/semaforica-api.git"
+  },
+  "author": "Pedro Nardelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PNardelli/semaforica-api/issues"
+  },
+  "homepage": "https://github.com/PNardelli/semaforica-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.9.16",
+    "node": "^14.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
